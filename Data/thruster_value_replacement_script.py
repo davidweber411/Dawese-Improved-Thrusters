@@ -1,6 +1,9 @@
 import re
 
-sbcFilePath = "deine_datei.xml"
+sbcFilePath = "CubeBlocks_Thrusters.sbc"
+# sbcFilePath = "CubeBlocks_IndustrialPack.sbc"
+# sbcFilePath = "CubeBlocks_SparksOfTheFuturePack.sbc"
+# sbcFilePath = "CubeBlocks_Warfare2.sbc"
 multiplierFactor = 3
 
 # read sbc with with xml content. 
