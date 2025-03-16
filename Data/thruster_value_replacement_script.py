@@ -16,7 +16,7 @@ pattern = r"<ForceMagnitude>(\d+(\.\d+)?)<\/ForceMagnitude>"
 # multiply value function 
 def multiply_by_three(match):
     number = float(match.group(1))
-    new_number = number * multiplierFactor
+    new_number = int(number * multiplierFactor) 
     return f"<ForceMagnitude>{new_number}</ForceMagnitude>"
 
 # replace all values
