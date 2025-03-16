@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <CubeBlocks>
-        <!-- Region Thrust-->
+
+        <!-- Ion Thrust / Region Thrust: SmallBlockSmallThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -104,6 +105,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
+
+        <!-- Ion Thrust / Region Thrust: SmallBlockLargeThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -205,6 +208,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
+
+        <!-- Ion Thrust / Region Thrust: LargeBlockSmallThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -307,6 +312,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
+
+        <!-- Ion Thrust / Region Thrust: LargeBlockLargeThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -411,7 +418,7 @@
             </TargetingGroups>
         </Definition>
 
-        <!--HydrogenThrusters-->
+        <!-- HydrogenThrusters: LargeBlockLargeHydrogenThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -516,6 +523,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
+
+        <!-- HydrogenThrusters: LargeBlockSmallHydrogenThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -619,6 +628,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
+
+        <!-- HydrogenThrusters: SmallBlockLargeHydrogenThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -722,6 +733,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
+
+        <!-- HydrogenThrusters: SmallBlockSmallHydrogenThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -825,8 +838,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
-        <!--HydrogenThrusters End-->
 
+        <!-- AtmosphericThrusters: LargeBlockLargeAtmosphericThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -936,6 +949,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
+
+        <!-- AtmosphericThrusters: LargeBlockSmallAtmosphericThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1047,6 +1062,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
+
+        <!-- AtmosphericThrusters: SmallBlockLargeAtmosphericThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1158,6 +1175,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
+
+        <!-- AtmosphericThrusters: SmallBlockSmallAtmosphericThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1270,7 +1289,8 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
-        
+
+        <!-- AtmosphericThrusters: LargeBlockLargeFlatAtmosphericThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1386,6 +1406,7 @@
             </TargetingGroups>
         </Definition>
 
+        <!-- AtmosphericThrusters: LargeBlockLargeFlatAtmosphericThrustDShape -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1501,6 +1522,7 @@
             </TargetingGroups>
         </Definition>
 
+        <!-- AtmosphericThrusters: LargeBlockSmallFlatAtmosphericThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1617,6 +1639,7 @@
             </TargetingGroups>
         </Definition>
 
+        <!-- AtmosphericThrusters: LargeBlockSmallFlatAtmosphericThrustDShape -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1733,6 +1756,7 @@
             </TargetingGroups>
         </Definition>
 
+        <!-- AtmosphericThrusters: SmallBlockLargeFlatAtmosphericThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1849,6 +1873,7 @@
             </TargetingGroups>
         </Definition>
 
+        <!-- AtmosphericThrusters: SmallBlockLargeFlatAtmosphericThrustDShape -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1965,6 +1990,7 @@
             </TargetingGroups>
         </Definition>
 
+        <!-- AtmosphericThrusters: SmallBlockSmallFlatAtmosphericThrust -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -2082,6 +2108,7 @@
             </TargetingGroups>
         </Definition>
 
+        <!-- AtmosphericThrusters: SmallBlockSmallFlatAtmosphericThrustDShape -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -2199,6 +2226,5 @@
             </TargetingGroups>
         </Definition>
         
-        <!-- End Region Thrust-->
     </CubeBlocks>
 </Definitions>
